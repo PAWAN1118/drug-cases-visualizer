@@ -99,4 +99,4 @@ if not df.empty:
         fig_pred.update_layout(title="Actual vs Predicted Cases", xaxis_title="Samples", yaxis_title="Cases")
         st.plotly_chart(fig_pred)
 
-st.sidebar.write("Made with ❤️ by AI Student")
+st.sidebar.write("Made By DEEPTHINKERS")
