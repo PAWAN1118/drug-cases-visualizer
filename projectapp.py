@@ -37,8 +37,8 @@ def preprocess_data(df):
     return all_years
 
 # Streamlit App UI Enhancements
-st.set_page_config(page_title="Drug Cases Predictor", layout="wide")
-st.title("📊 Drug Cases Predictor & Analyzer")
+st.set_page_config(page_title="Drug Cases", layout="wide")
+st.title("📊 Drug Cases Analyzer")
 
 # Sidebar Navigation
 st.sidebar.title("Navigation")
