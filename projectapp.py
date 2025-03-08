@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Data URL
-url = "https://www.data.gov.in/backend/dms/v1/ogdp/resource/download/603189971/json/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkYXRhLmdvdi5pbiIsImF1ZCI6ImRhdGEuZ292LmluIiwiaWF0IjoxNzQxMTY2ODk5LCJleHAiOjE3NDExNjcxOTksImRhdGEiOnsibmlkIjoiNjAzMTg5OTcxIn19.zhYuZ-I7lvJPgqhVgg8On_9FTWp26LIzhlaNi7kuWjo"
+url = "https://www.data.gov.in/backend/dms/v1/ogdp/resource/download/603189971/json/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkYXRhLmdvdi5pbiIsImF1ZCI6ImRhdGEuZ292LmluIiwiaWF0IjoxNzQxNDQ2MzI1LCJleHAiOjE3NDE0NDY2MjUsImRhdGEiOnsibmlkIjoiNjAzMTg5OTcxIn19.rfyiBxRDBSUTr4VMZqfORvE5uRaXSzf8aehzu75cRME"
 
 @st.cache_data
 def load_data():
